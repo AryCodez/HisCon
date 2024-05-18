@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HisCon | Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/asset/HC.png" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="bg">
+        <div class="menu">
+            <img src="/asset/HISCON(1).png" alt="">
+            <p>Web Dokumentasi Pertarungan-pertarungan Perang Dunia Ke-2</p>
+        </div>
+        <div class="mainbuttons">
+            <div class="wfbutton">
+                <a href="wf.html"><button onmousedown="sound1.play()" type="button">Front Barat</button></a>
+            </div>
+            <div class="efbutton">
+                <a href="ef.html"><button onmousedown="sound1.play()" type="button">Front Timur</button></a>
+            </div>
+            <div class="nacbutton">
+                <a href="nac.html"><button onmousedown="sound1.play()" type="button">Kampanye <br>Afrika Utara</button></a>
+            </div>
+            <div class="pwbutton">
+                <a href="pw.html"><button onmousedown="sound1.play()" type="button">Perang <br>Pasifik</button></a>
+            </div>
+        </div>
+        <div class="menubuttons">
+            <div class="button1">
+                <a href="pm.html"> <button onmousedown="sound1.play()" type="button">Perlengkapan Militer</button></a>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <img src="/asset/HISCON(1).png" alt="">
+        <p>Dibuat Oleh Arya Rafif R.</p>
+    </div>
+    <script>
+        var sound1 = new Audio();
+        sound1.src = "ClickSound.mp3"
+    </script>
+</body>
+</html>

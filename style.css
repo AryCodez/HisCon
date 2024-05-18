@@ -1,0 +1,392 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/asset/menubg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu img {
+    height: 10vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menu p {
+    text-align: center;
+    font-family: 'Antonio';
+    font-size: 1.3vw;
+    color: bisque;
+    margin-bottom: 45px;
+}
+
+.mainbuttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mainbuttons button {
+    margin: 1vw;
+    font-family: 'Koulen';
+    font-size: 3vw;
+}
+
+.wfbutton button {
+    border: solid 3px bisque;
+    height: 45.5vw;
+    width: 21vw;
+    color: white;
+    background-image: url(/asset/paris1944.jpg);
+    filter:grayscale(100%);
+    transition: ease-out 0.3s;
+    line-height: 2.5vw;
+}
+
+.wfbutton button:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: ease 0.3s;
+    background-image: url(/asset/paris1944.jpg);
+    filter: brightness(100%);
+    font-size: 4vw;
+    line-height: 3vw;
+}
+
+.efbutton button {
+    border: solid 3px bisque;
+    height: 45.5vw;
+    width: 21vw;
+    color: white;
+    background-image: url(/asset/stalingrad1943.jpg);
+    filter:grayscale(100%);
+    transition: ease 0.3s;
+    line-height: 2.5vw;
+}
+
+.efbutton button:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: ease 0.3s;
+    background-image: url(/asset/stalingrad1943.jpg);
+    filter: brightness(100%);
+    font-size: 4vw;
+    line-height: 3vw;
+}
+
+.nacbutton button {
+    border: solid 3px bisque;
+    height: 45.5vw;
+    width: 21vw;
+    color: white;
+    line-height: 50px;
+    background-image: url(/asset/africa1941.jpg);
+    filter:grayscale(100%);
+    transition: ease 0.3s;
+    line-height: 2.5vw;
+}
+
+.nacbutton button:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: ease 0.3s;
+    background-image: url(/asset/africa1941.jpg);
+    filter: brightness(100%);
+    font-size: 4vw;
+    line-height: 3vw;
+}
+
+.pwbutton button {
+    border: solid 3px bisque;
+    height: 45.5vw;
+    width: 21vw;
+    color: white;
+    background-image: url(/asset/iwojima1945.jpg);
+    filter:grayscale(100%);
+    transition: ease 0.3s;
+    line-height: 2.5vw;
+}
+
+.pwbutton button:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: ease 0.3s;
+    background-image: url(/asset/iwojima1945.jpg);
+    filter: brightness(100%);
+    font-size: 4vw;
+    line-height: 3vw;
+}
+
+.menubuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menubuttons button {
+    border: solid 3px bisque;
+    font-family: 'Koulen';
+    font-size: 3vw;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 10px;
+    width: 90vw;
+    transition: ease-out 0.3s;
+    filter: grayscale(100%);
+}
+
+.button1 button {
+    background-image: url(/asset/WEAPONS\ 1945\ 011.jpg);
+    margin-bottom: 100px;
+}
+
+.button1 button:hover {
+    font-size: 4vw;
+    color: #ffffff;
+    background-image: url(/asset/WEAPONS\ 1945\ 011.jpg);
+    transition: ease 0.3s;
+    filter: brightness(100%);
+}
+
+.footer {
+    border-top: 3px solid bisque;
+    background-color: #42494A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.footer img {
+    width: 10%;
+    margin-left: 15px;
+    margin-block: 15px;
+}
+
+.footer p {
+    font-family: 'Antonio';
+    color: bisque;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42494A;
+    transition: opacity 0.75s, visibility 0.75s;
+    z-index: 10;
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #323738;
+    border-top-color: rgb(186, 0, 0);
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .bg {
+        height: 220vw;
+    }
+
+    .menu img {
+        height: 20vw;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .menu p {
+        text-align: center;
+        font-family: 'Antonio';
+        font-size: 2.5vw;
+        color: bisque;
+        margin-bottom: 45px;
+    }
+    
+    .mainbuttons {
+        display: block;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .mainbuttons button {
+        margin: 1vw;
+        font-family: 'Koulen';
+        font-size: 6vw;
+
+    }
+    
+    .wfbutton button {
+        border: solid 3px bisque;
+        height: 25vw;
+        width: 90vw;
+        color: white;
+        background-image: url(/asset/paris1944.jpg);
+        filter:grayscale(0%);
+        transition: ease-out 0.3s;
+        line-height: 2.5vw;
+    }
+    
+    .wfbutton button:hover {
+        color: white;
+        transform: scale(1.1);
+        transition: ease 0.3s;
+        background-image: url(/asset/paris1944.jpg);
+        filter: brightness(100%);
+        font-size: 7vw;
+        line-height: 3vw;
+    }
+    
+    .efbutton button {
+        border: solid 3px bisque;
+        height: 25vw;
+        width: 90vw;
+        color: white;
+        background-image: url(/asset/stalingrad1943.jpg);
+        filter:grayscale(0%);
+        transition: ease 0.3s;
+        line-height: 2.5vw;
+    }
+    
+    .efbutton button:hover {
+        color: white;
+        transform: scale(1.1);
+        transition: ease 0.3s;
+        background-image: url(/asset/stalingrad1943.jpg);
+        filter: brightness(100%);
+        font-size: 7vw;
+        line-height: 3vw;
+    }
+    
+    .nacbutton button {
+        border: solid 3px bisque;
+        height: 25vw;
+        width: 90vw;
+        color: white;
+        background-image: url(/asset/africa1941.jpg);
+        filter:grayscale(0%);
+        transition: ease 0.3s;
+        line-height: 6vw;
+    }
+    
+    .nacbutton button:hover {
+        color: white;
+        transform: scale(1.1);
+        transition: ease 0.3s;
+        background-image: url(/asset/africa1941.jpg);
+        filter: brightness(100%);
+        font-size: 7vw;
+        line-height: 6vw;
+    }
+    
+    .pwbutton button {
+        border: solid 3px bisque;
+        height: 25vw;
+        width: 90vw;
+        color: white;
+        background-image: url(/asset/iwojima1945.jpg);
+        filter:grayscale(0%);
+        transition: ease 0.3s;
+        line-height: 6vw;
+    }
+    
+    .pwbutton button:hover {
+        color: rgb(255, 255, 255);
+        transform: scale(1.1);
+        transition: ease 0.3s;
+        filter: brightness(100%);
+        font-size: 7vw;
+        line-height: 6vw;
+    }
+    
+    .menubuttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menubuttons button {
+        border: solid 3px bisque;
+        font-family: 'Koulen';
+        font-size: 6vw;
+        text-align: center;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        background-image: url(/asset/WEAPONS\ 1945\ 011.jpg);
+        min-width: 10px;
+        width: 90vw;
+        transition: ease-out 0.3s;
+        filter: grayscale(0%);
+    }
+    
+    .menubuttons button:hover {
+        font-size: 7vw;
+        color: #ffffff;
+        background-image: url(/asset/WEAPONS\ 1945\ 011.jpg);
+        transition: ease 0.3s;
+        filter: brightness(100%);
+    }
+    
+    .footer {
+        border-top: 3px solid bisque;
+        background-color: #42494A;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer img {
+        height: 5vw;
+        width: 20vw;
+    }
+    
+    .footer p {
+        font-family: 'Antonio';
+        color: bisque;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}

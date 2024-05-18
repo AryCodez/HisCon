@@ -1,0 +1,419 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+.header {
+    display: flex;
+    background-color: #373c3d;
+    font-family: 'Koulen';
+    color: #7f8484;
+    letter-spacing: 2px;
+    font-size: 10px;
+    width: auto;
+}
+
+.header a {
+    font-family: 'Koulen';
+    color: #7f8484;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navbar {
+    display: flex;
+    background-color: #42494A;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.mainnavbar {
+    text-align: center;
+    padding-right: 25vw;
+}
+
+.mainnavbar h1 {
+    font-family: 'Koulen';
+    font-size: 2.5vw;
+    color: bisque;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 1vw;
+    line-height: 4vw;
+}
+
+.mainnavbar ul {
+    text-align: center;
+    display: flex;
+    font-family: 'Koulen';
+    font-size: 1.5vw;
+    margin-left: -2vw;
+}
+
+.mainnavbar li {
+    padding-inline: 1vw;
+    letter-spacing: 2px;
+    list-style: none;
+}
+
+.mainnavbar ul a {
+    text-decoration: none;
+    color: #D77A0D;
+}
+
+.mainnavbar ul a:hover {
+    color: #ffc889;
+}
+
+.backbutton {
+    padding: 25px;
+}
+
+.backbutton button {
+    border: 3px solid bisque;
+    width: 10vw;
+    font-family: 'Koulen';
+    font-size: 2vw;
+    text-align: center;
+    color: bisque;
+    background-color: red;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.backbutton button:hover {
+    color: red;
+    background-color: bisque;
+}
+
+.navbar2 ul {
+    position: sticky;
+    top: 19%;
+    font-family: 'Koulen';
+    color: #42494A;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.navbar2 li {
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.navbar2 a {
+    color: #42494A;
+}
+
+.main {
+    display: flex;
+    background-image: url(/asset/WEAPONS\ 1945\ 011\(2\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content h1 {
+    font-family: 'Koulen';
+    font-size: 30px;
+    font-style: normal;
+    color: goldenrod;
+    letter-spacing: 5px;
+}
+
+.content h2 {
+    font-family: 'Antonio';
+    font-style: normal;
+    color: red;
+}
+
+.content p {
+    font-family: 'Antonio';
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.content img {
+    width: 60vw;
+    margin-block: auto;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+
+.flagname {
+    display: flex;
+}
+
+.flagname img {
+    border: solid 2px;
+    max-height: 25px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.footer {
+    background-color: #42494A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.footer img {
+    width: 10%;
+    margin-left: 15px;
+    margin-block: 15px;
+}
+
+.footer p {
+    font-family: 'Antonio';
+    color: bisque;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42494A;
+    transition: opacity 0.75s, visibility 0.75s;
+    z-index: 10;
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #323738;
+    border-top-color: rgb(186, 0, 0);
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .header {
+        display: flex;
+        background-color: #373c3d;
+        font-family: 'Koulen';
+        color: #7f8484;
+        letter-spacing: 2px;
+        font-size: 10px;
+        width: auto;
+    }
+    
+    .header a {
+        font-family: 'Koulen';
+        color: #7f8484;
+        letter-spacing: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #navbar {
+        display: flex;
+        background-color: #42494A;
+        justify-content: space-between;
+    }
+
+    .mainnavbar {
+        padding-right: 3vw;
+    }
+    
+    .mainnavbar h1 {
+        font-family: 'Koulen';
+        font-size: 6vw;
+        color: bisque;
+        letter-spacing: 5px;
+        text-align: center;
+        line-height: 6vw;
+        margin-block: 8vw;
+    }
+    
+    .mainnavbar ul {
+        text-align: center;
+        display: flex;
+        font-family: 'Koulen';
+        font-size: 1.5vw;
+        margin-left: 6vw;
+        display: none;
+    }
+    
+    .mainnavbar li {
+        padding: 1.5vw;
+        letter-spacing: 2px;
+        list-style: none;
+    }
+    
+    .mainnavbar ul a {
+        text-decoration: none;
+        color: #D77A0D;
+    }
+    
+    .mainnavbar ul a:hover {
+        color: #ffc889;
+    }
+    
+    .backbutton {
+        padding: 8vw;
+    }
+    
+    .backbutton button {
+        border: 3px solid bisque;
+        width: 25vw;
+        font-family: 'Koulen';
+        font-size: 5vw;
+        text-align: center;
+        color: bisque;
+        background-color: red;
+    }
+    .backbutton button:hover {
+        color: red;
+        background-color: bisque;
+    }
+    
+    .navbar2 ul {
+        position: sticky;
+        top: 19%;
+        font-family: 'Koulen';
+        color: #42494A;
+        text-decoration: none;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    
+    .navbar2 li {
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    
+    .navbar2 a {
+        color: #42494A;
+    }
+    
+    .main {
+        display: flex;
+        background-image: url(/asset/WEAPONS\ 1945\ 011\(2\).jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .content {
+        background-color: #ffffff;
+        padding: 30px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .content h1 {
+        font-family: 'Koulen';
+        font-size: 5.5vw;
+        font-style: normal;
+        color: goldenrod;
+        letter-spacing: 1vw;
+        line-height: 6vw;
+        margin-top: 20vw;
+        margin-bottom: 2vw;
+    }
+    
+    .content h2 {
+        font-size: 4vw;
+        font-family: 'Antonio';
+        font-style: normal;
+        color: red;
+    }
+    
+    .content p {
+        font-family: 'Antonio';
+        text-align: justify;
+        margin-bottom: 15px;
+        line-height: 4.5vw;
+        font-size: 3vw;
+    }
+    
+    .content img {
+        width: 60vw;
+        margin-block: auto;
+        margin-inline: auto;
+        margin-bottom: 20px;
+    }
+    
+    .flagname {
+        display: block;
+        text-align: center;
+    }
+    
+    .flagname img {
+        max-height: 5.5vw;
+        width: 10vw;
+    }
+    
+    .footer {
+        background-color: #42494A;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    
+    .footer img {
+        height: 5vw;
+        width: 20vw;
+    }
+    
+    .footer p {
+        font-family: 'Antonio';
+        color: bisque;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}
