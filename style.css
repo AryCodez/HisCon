@@ -264,7 +264,6 @@ body {
         height: 25vw;
         width: 90vw;
         color: white;
-        background-image: url(./asset/paris1944.jpg);
         filter:grayscale(0%);
         transition: ease-out 0.3s;
         line-height: 2.5vw;
@@ -274,7 +273,6 @@ body {
         color: white;
         transform: scale(1.1);
         transition: ease 0.3s;
-        background-image: url(./asset/paris1944.jpg);
         filter: brightness(100%);
         font-size: 7vw;
         line-height: 3vw;
@@ -285,7 +283,6 @@ body {
         height: 25vw;
         width: 90vw;
         color: white;
-        background-image: url(./asset/stalingrad1943.jpg);
         filter:grayscale(0%);
         transition: ease 0.3s;
         line-height: 2.5vw;
@@ -295,7 +292,6 @@ body {
         color: white;
         transform: scale(1.1);
         transition: ease 0.3s;
-        background-image: url(./asset/stalingrad1943.jpg);
         filter: brightness(100%);
         font-size: 7vw;
         line-height: 3vw;
@@ -306,7 +302,6 @@ body {
         height: 25vw;
         width: 90vw;
         color: white;
-        background-image: url(./asset/africa1941.jpg);
         filter:grayscale(0%);
         transition: ease 0.3s;
         line-height: 6vw;
@@ -316,7 +311,6 @@ body {
         color: white;
         transform: scale(1.1);
         transition: ease 0.3s;
-        background-image: url(./asset/africa1941.jpg);
         filter: brightness(100%);
         font-size: 7vw;
         line-height: 6vw;
@@ -327,7 +321,6 @@ body {
         height: 25vw;
         width: 90vw;
         color: white;
-        background-image: url(./asset/iwojima1945.jpg);
         filter:grayscale(0%);
         transition: ease 0.3s;
         line-height: 6vw;
@@ -355,7 +348,6 @@ body {
         text-align: center;
         padding: 10px;
         color: rgb(255, 255, 255);
-        background-image: url(./asset/WEAPONS\ 1945\ 011.jpg);
         min-width: 10px;
         width: 90vw;
         transition: ease-out 0.3s;
@@ -365,7 +357,6 @@ body {
     .menubuttons button:hover {
         font-size: 7vw;
         color: #ffffff;
-        background-image: url(./asset/WEAPONS\ 1945\ 011.jpg);
         transition: ease 0.3s;
         filter: brightness(100%);
     }
