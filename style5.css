@@ -110,7 +110,7 @@
 
 .main {
     display: flex;
-    background-image: url(/asset/iwojima1945\(2\).jpg);
+    background-image: url(./asset/iwojima1945\(2\).jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
