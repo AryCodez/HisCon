@@ -111,7 +111,7 @@
 
 .main {
     display: flex;
-    background-image: url(/asset/WEAPONS\ 1945\ 011\(2\).jpg);
+    background-image: url(./asset/WEAPONS\ 1945\ 011\(2\).jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -334,7 +334,7 @@
     
     .main {
         display: flex;
-        background-image: url(/asset/WEAPONS\ 1945\ 011\(2\).jpg);
+        background-image: url(./asset/WEAPONS\ 1945\ 011\(2\).jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
