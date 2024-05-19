@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/asset/menubg.png);
+    background-image: url(./asset/menubg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,7 +51,7 @@ body {
     height: 45.5vw;
     width: 21vw;
     color: white;
-    background-image: url(/asset/paris1944.jpg);
+    background-image: url(./asset/paris1944.jpg);
     filter:grayscale(100%);
     transition: ease-out 0.3s;
     line-height: 2.5vw;
@@ -61,7 +61,7 @@ body {
     color: white;
     transform: scale(1.1);
     transition: ease 0.3s;
-    background-image: url(/asset/paris1944.jpg);
+    background-image: url(./asset/paris1944.jpg);
     filter: brightness(100%);
     font-size: 4vw;
     line-height: 3vw;
@@ -72,7 +72,7 @@ body {
     height: 45.5vw;
     width: 21vw;
     color: white;
-    background-image: url(/asset/stalingrad1943.jpg);
+    background-image: url(./asset/stalingrad1943.jpg);
     filter:grayscale(100%);
     transition: ease 0.3s;
     line-height: 2.5vw;
@@ -82,7 +82,7 @@ body {
     color: white;
     transform: scale(1.1);
     transition: ease 0.3s;
-    background-image: url(/asset/stalingrad1943.jpg);
+    background-image: url(./asset/stalingrad1943.jpg);
     filter: brightness(100%);
     font-size: 4vw;
     line-height: 3vw;
@@ -94,7 +94,7 @@ body {
     width: 21vw;
     color: white;
     line-height: 50px;
-    background-image: url(/asset/africa1941.jpg);
+    background-image: url(./asset/africa1941.jpg);
     filter:grayscale(100%);
     transition: ease 0.3s;
     line-height: 2.5vw;
@@ -104,7 +104,7 @@ body {
     color: white;
     transform: scale(1.1);
     transition: ease 0.3s;
-    background-image: url(/asset/africa1941.jpg);
+    background-image: url(./asset/africa1941.jpg);
     filter: brightness(100%);
     font-size: 4vw;
     line-height: 3vw;
@@ -115,7 +115,7 @@ body {
     height: 45.5vw;
     width: 21vw;
     color: white;
-    background-image: url(/asset/iwojima1945.jpg);
+    background-image: url(./asset/iwojima1945.jpg);
     filter:grayscale(100%);
     transition: ease 0.3s;
     line-height: 2.5vw;
@@ -125,7 +125,7 @@ body {
     color: white;
     transform: scale(1.1);
     transition: ease 0.3s;
-    background-image: url(/asset/iwojima1945.jpg);
+    background-image: url(./asset/iwojima1945.jpg);
     filter: brightness(100%);
     font-size: 4vw;
     line-height: 3vw;
@@ -153,14 +153,14 @@ body {
 }
 
 .button1 button {
-    background-image: url(/asset/WEAPONS\ 1945\ 011.jpg);
+    background-image: url(./asset/WEAPONS\ 1945\ 011.jpg);
     margin-bottom: 100px;
 }
 
 .button1 button:hover {
     font-size: 4vw;
     color: #ffffff;
-    background-image: url(/asset/WEAPONS\ 1945\ 011.jpg);
+    background-image: url(./asset/WEAPONS\ 1945\ 011.jpg);
     transition: ease 0.3s;
     filter: brightness(100%);
 }
