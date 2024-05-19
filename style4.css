@@ -110,7 +110,7 @@
 
 .main {
     display: flex;
-    background-image: url(/asset/africa1941\(2\).jpg);
+    background-image: url(./asset/africa1941\(2\).jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
